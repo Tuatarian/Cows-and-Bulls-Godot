@@ -30,6 +30,8 @@ margin_right = 961.929
 margin_bottom = 619.636
 custom_fonts/font = SubResource( 2 )
 text = "Start Game"
-
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="focus_entered" from="LineEdit" to="." method="_on_LineEdit_focus_entered"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
